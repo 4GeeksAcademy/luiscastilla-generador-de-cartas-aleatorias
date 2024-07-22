@@ -1,0 +1,34 @@
+body {
+    background-color: green;
+}
+
+.container-sm {
+    background-color: white;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 10em;
+    text-align: center;
+    display: flex;
+    box-shadow: 4px 4px 4px 4px rgb(83, 83, 83);
+  }
+  #bottom-tipo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    transform: rotate(180deg);
+  }
+  #card-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boton {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px 50px;
+  }
