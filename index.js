@@ -1,5 +1,5 @@
 const tipos = ["♥", "♠", "♣", "♦"];
-const valores = ["As","2","3","4","5","6","7","8","9","10","J","Q","K"];
+const valores = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
 
 function numeroAleatorio(array) {
   return array[Math.floor(Math.random() * array.length)];
@@ -15,7 +15,6 @@ function tarjetaAleatoria() {
   document.getElementById("bottom-tipo").innerHTML = tipo;
   document.getElementById("top-tipo").style.color = color;
   document.getElementById("bottom-tipo").style.color = color;
-
 }
 
 document.addEventListener("DOMContentLoaded", tarjetaAleatoria());

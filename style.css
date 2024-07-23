@@ -1,5 +1,7 @@
 body {
     background-color: green;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
 }
 
 .container-sm {
@@ -8,10 +10,10 @@ body {
     margin: auto;
     margin-top: 20px;
     border-radius: 20px;
-    font-size: 10em;
+    font-size: 8em;
     text-align: center;
     display: flex;
-    box-shadow: 4px 4px 4px 4px rgb(83, 83, 83);
+    box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.685);
   }
   #bottom-tipo {
     display: flex;
@@ -23,12 +25,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2em;
   }
   .boton {
     display: block;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 30px;
     border-radius: 10px;
     padding: 10px 50px;
+    background-color: rgba(8, 8, 216, 0.815);
+    color: white;
+    border: solid 2px black;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.685);
   }
